@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Garden Salad Cafe ランディングページ
 
-## Getting Started
+このプロジェクトは、東京の表参道にある架空のカフェ「Garden Salad Cafe」のランディングページを制作したポートフォリオ作品です。Next.js、TypeScript、Tailwind CSSを使用し、モダンなWeb開発手法とレスポンシブデザインを取り入れています。
 
-First, run the development server:
+## 特徴
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 表参道のカフェをイメージしたモダンなデザイン
+- 様々な画面サイズに最適化された完全レスポンシブレイアウト
+- APIから取得した動的なメニューデータ
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 使用技術
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js: サーバーサイドレンダリングと静的サイト生成を可能にするReactフレームワーク
+- TypeScript: コード品質と開発者の生産性を向上させる型付きJavaScriptのスーパーセット
+- Tailwind CSS: 高速なUIデザイン開発を可能にするユーティリティファーストのCSSフレームワーク
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## セットアップ方法
 
-## Learn More
+1. リポジトリをクローンします。
+2. プロジェクトディレクトリに移動します。
+3. 依存関係をインストールします。
+4. 開発サーバーを起動します。
 
-To learn more about Next.js, take a look at the following resources:
+## フォルダ構造
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/`: Next.jsのページ、コンポーネント、ルーティング、レイアウトを含むディレクトリ
+- `public/`: 画像やフォントなどの静的アセットを含むディレクトリ
+- `lib/`: ユーティリティ関数とAPIクライアント設定を含むディレクトリ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
