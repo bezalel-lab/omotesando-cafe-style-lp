@@ -14,7 +14,7 @@ export default function RootLayout({
     <html lang="ja">
       <head>
 
-      <script src="https://kit.fontawesome.com/fd76f22e79.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/fd76f22e79.js" crossOrigin="anonymous"></script>
         
         {/* Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
